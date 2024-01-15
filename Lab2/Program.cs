@@ -8,6 +8,8 @@
             int x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter Number 2: ");
             int y = Convert.ToInt32(Console.ReadLine());
+                        Console.WriteLine("Enter Number 4: ");
+
         }
         class Multiply
         {
