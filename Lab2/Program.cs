@@ -17,9 +17,25 @@ namespace ConsoleApp65
             Console.WriteLine("type in the desired number to use the calculator's function: ");
             int a = Convert.ToInt32(Console.ReadLine());
             if (a == 1)
-            
-            else if (a == 2)
-            
+            {
+                Console.WriteLine("You have chosen Addition.");
+                Console.WriteLine("Please enter Number 1: ");
+                int x = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Please enter Number 2: ");
+                int y = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(x + " + " + y + " = " + (x + y));
+            }
+            else if (a == 2) 
+            {
+                Console.WriteLine("You have chosen Subtraction.");
+                Console.WriteLine("Please enter Number 1: ");
+                int x = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Please enter Number 2: ");
+                int y = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(x + " - " + y + " = " + (x - y));
+            }
+
+
             else if (a == 3)
             {
                 Console.WriteLine("You have chosen Multiplication.");
@@ -37,7 +53,7 @@ namespace ConsoleApp65
                 Console.WriteLine("Please enter Number 2: ");
                 int y = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(x + " / " + y + " = " + (x / y));
-            }                        
+            }
             else
                 Console.WriteLine("Unknown function! Please run me again.");
 
