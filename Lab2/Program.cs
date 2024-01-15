@@ -9,11 +9,12 @@
             Console.WriteLine("Enter Number 2: ");
             int y = Convert.ToInt32(Console.ReadLine());
                         Console.WriteLine("Enter Number 4: ");
+            Console.WriteLine("enternumber");
 
         }
         class Multiply
         {
-
+            
         }
     }
 }
