@@ -26,7 +26,7 @@ namespace ConsoleApp65
                 Console.WriteLine("Please enter Number 2: ");
                 int y = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(x + " + " + y + " = " + (x + y));
-                 //Added Addition by Liew Jun Wei
+                 //Added Addition by Liew Jun Wei6
             }
             else if (a == 2) 
             {
