@@ -7,6 +7,7 @@ namespace ConsoleApp65
     {
         static void Main(string[] args)
         {
+            //Added the Selection Menu for the calculator -Cyr
             Console.WriteLine("Menu driven Calculator");
             Console.WriteLine("***********************");
             Console.WriteLine("1.Addition");
@@ -16,6 +17,7 @@ namespace ConsoleApp65
             Console.WriteLine("***********************");
             Console.WriteLine("type in the desired number to use the calculator's function: ");
             int a = Convert.ToInt32(Console.ReadLine());
+            //Added else/if for the function selection -Cyr
             if (a == 1)
             {
                 Console.WriteLine("You have chosen Addition.");
@@ -35,7 +37,7 @@ namespace ConsoleApp65
                 Console.WriteLine(x + " - " + y + " = " + (x - y));
             }
 
-
+            //Added Multiplication function for 3. -Cyr
             else if (a == 3)
             {
                 Console.WriteLine("You have chosen Multiplication.");
@@ -45,6 +47,7 @@ namespace ConsoleApp65
                 int y = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(x + " x " + y + " = " + (x * y));
             }
+            //Added Division function function for 4. -Cyr
             else if (a == 4)
             {
                 Console.WriteLine("You have chosen Division.");
@@ -54,6 +57,7 @@ namespace ConsoleApp65
                 int y = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(x + " / " + y + " = " + (x / y));
             }
+            //Added a error message if function selection is > 4 -Cyr
             else
                 Console.WriteLine("Unknown function! Please run me again.");
 
