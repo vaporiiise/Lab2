@@ -26,6 +26,7 @@ namespace ConsoleApp65
                 Console.WriteLine("Please enter Number 2: ");
                 int y = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(x + " + " + y + " = " + (x + y));
+                 //Added Addition by Liew Jun Wei
             }
             else if (a == 2) 
             {
@@ -36,6 +37,7 @@ namespace ConsoleApp65
                 int y = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine(x + " - " + y + " = " + (x - y));
             }
+            //Added subtraction by Liew Jun Wei
 
             //Added Multiplication function for 3. -Cyr
             else if (a == 3)
